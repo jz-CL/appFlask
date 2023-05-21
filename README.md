@@ -1,6 +1,10 @@
 # app Flask project
 
-
+v5.0a
+- bazy danych SQL
+- zarządzanie bazą danych za pomocą Flask-SQLAlchemy
+- definicja modelu
+- relacje
 
 v4.0c
 - formularz
