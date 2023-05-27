@@ -26,6 +26,8 @@ bootstrap = Bootstrap(app)
 moment = Moment(app)
 db = SQLAlchemy(app)
 
+
+
 # models
 class Role(db.Model):
     __tablename__ = 'roles'
@@ -80,6 +82,12 @@ def user(name):
     return render_template('user.html', name=name)
 
 
+# kontekst powłoki
+@app.shell_context_processor
+def make_shell_context():
+    return dict(db=db, User=User, Role=Role)
+
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
@@ -88,3 +96,6 @@ def page_not_found(e):
 @app.errorhandler(500)
 def internal_server_error(e):
     return render_template('500.html'), 500
+
+
+

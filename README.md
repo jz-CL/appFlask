@@ -1,5 +1,9 @@
 # app Flask project
 
+
+v5.0c
+@app.shell context processor
+
 v5.0a
 - bazy danych SQL
 - zarządzanie bazą danych za pomocą Flask-SQLAlchemy
