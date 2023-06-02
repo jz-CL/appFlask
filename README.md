@@ -1,5 +1,10 @@
 # app Flask project
 
+v5.0d
+
+data base migrations with Flask-Migrate
+flask-migrate, flask db
+
 
 v5.0c
 @app.shell context processor
