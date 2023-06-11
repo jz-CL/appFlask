@@ -1,5 +1,14 @@
 # app Flask project
 
+
+v6.0a
+send email - wiadomości e-mail
+- Flask-Mail
+- flask shell
+- integracja z aplikacją
+
+
+
 v5.0d
 
 data base migrations with Flask-Migrate
