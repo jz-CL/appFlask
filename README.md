@@ -1,6 +1,10 @@
 # app Flask project
 
 
+v6.0b
+send email - wiadomości e-mail
+- asynchroniczne wysyłanie maili
+
 v6.0a
 send email - wiadomości e-mail
 - Flask-Mail
